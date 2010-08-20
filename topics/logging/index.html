@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -5,21 +7,22 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Logging &mdash; zamboni v0.1 documentation</title>
+    <title>Logging &mdash; zamboni v0.8 documentation</title>
     <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../../',
-        VERSION:     '0.1',
-        COLLAPSE_MODINDEX: false,
-        FILE_SUFFIX: '.html',
+        VERSION:     '0.8',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '',
         HAS_SOURCE:  true
       };
     </script>
     <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <link rel="top" title="zamboni v0.1 documentation" href="../../" />
+    <link rel="top" title="zamboni v0.8 documentation" href="../../" />
     <link rel="next" title="Packaging in Zamboni" href="../packages/" />
     <link rel="prev" title="Installing Zamboni" href="../installation/" /> 
   </head>
@@ -31,15 +34,15 @@
           <a href="../../genindex/" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="../../modindex/" title="Global Module Index"
-             accesskey="M">modules</a> |</li>
+          <a href="../../py-modindex/" title="Python Module Index"
+             >modules</a> |</li>
         <li class="right" >
           <a href="../packages/" title="Packaging in Zamboni"
              accesskey="N">next</a> |</li>
         <li class="right" >
           <a href="../installation/" title="Installing Zamboni"
              accesskey="P">previous</a> |</li>
-        <li><a href="../../">zamboni v0.1 documentation</a> &raquo;</li> 
+        <li><a href="../../">zamboni v0.8 documentation</a> &raquo;</li> 
       </ul>
     </div>  
 
@@ -136,42 +139,42 @@ the log message.</p>
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
-            <h3><a href="../../">Table Of Contents</a></h3>
-            <ul>
-<li><a class="reference external" href="">Logging</a><ul>
-<li><a class="reference external" href="#configuration">Configuration</a></li>
-<li><a class="reference external" href="#using-loggers">Using Loggers</a><ul>
-<li><a class="reference external" href="#commonware-log-vs-logging">commonware.log vs. logging</a></li>
+  <h3><a href="../../">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Logging</a><ul>
+<li><a class="reference internal" href="#configuration">Configuration</a></li>
+<li><a class="reference internal" href="#using-loggers">Using Loggers</a><ul>
+<li><a class="reference internal" href="#commonware-log-vs-logging">commonware.log vs. logging</a></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 
-            <h4>Previous topic</h4>
-            <p class="topless"><a href="../installation/"
-                                  title="previous chapter">Installing Zamboni</a></p>
-            <h4>Next topic</h4>
-            <p class="topless"><a href="../packages/"
-                                  title="next chapter">Packaging in Zamboni</a></p>
-            <h3>This Page</h3>
-            <ul class="this-page-menu">
-              <li><a href="../../_sources/topics/logging.txt"
-                     rel="nofollow">Show Source</a></li>
-            </ul>
-          <div id="searchbox" style="display: none">
-            <h3>Quick search</h3>
-              <form class="search" action="../../search/" method="get">
-                <input type="text" name="q" size="18" />
-                <input type="submit" value="Go" />
-                <input type="hidden" name="check_keywords" value="yes" />
-                <input type="hidden" name="area" value="default" />
-              </form>
-              <p class="searchtip" style="font-size: 90%">
-              Enter search terms or a module, class or function name.
-              </p>
-          </div>
-          <script type="text/javascript">$('#searchbox').show(0);</script>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../installation/"
+                        title="previous chapter">Installing Zamboni</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../packages/"
+                        title="next chapter">Packaging in Zamboni</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../_sources/topics/logging.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search/" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="clearer"></div>
@@ -183,7 +186,7 @@ the log message.</p>
           <a href="../../genindex/" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="../../modindex/" title="Global Module Index"
+          <a href="../../py-modindex/" title="Python Module Index"
              >modules</a> |</li>
         <li class="right" >
           <a href="../packages/" title="Packaging in Zamboni"
@@ -191,12 +194,12 @@ the log message.</p>
         <li class="right" >
           <a href="../installation/" title="Installing Zamboni"
              >previous</a> |</li>
-        <li><a href="../../">zamboni v0.1 documentation</a> &raquo;</li> 
+        <li><a href="../../">zamboni v0.8 documentation</a> &raquo;</li> 
       </ul>
     </div>
     <div class="footer">
-      &copy; Copyright 2009, The Zamboni Collective.
-      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.3.
+        &copy; Copyright 2009, The Zamboni Collective.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.2.
     </div>
   </body>
 </html>
