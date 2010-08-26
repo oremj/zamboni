@@ -392,6 +392,11 @@ SPHINX_PORT = 3312
 
 JAVA_BIN = '/usr/bin/java'
 
+# Add-on download settings.
+MIRROR_DELAY = 30  # Minutes before we serve downloads from mirrors.
+FILES_HOST = 'http://releases.mozilla.org/pub/mozilla.org/addons'
+REPO_PATH = '/mnt/netapp_amo/addons.mozilla.org-remora/files'
+
 # File paths
 ADDON_ICONS_PATH = UPLOADS_PATH + '/addon_icons'
 COLLECTIONS_ICON_PATH = UPLOADS_PATH + '/collection_icons'

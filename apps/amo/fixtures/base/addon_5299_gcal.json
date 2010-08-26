@@ -194,6 +194,19 @@
         }
     },
     {
+        "pk": 50000,
+        "model": "versions.version",
+        "fields": {
+            "license": 13,
+            "created": "2009-07-06 13:53:30",
+            "releasenotes": null,
+            "modified": "2010-03-12 07:45:56",
+            "approvalnotes": "",
+            "version": "0.4b",
+            "addon": 5299
+        }
+    },
+    {
         "pk": 33046,
         "model": "files.file",
         "fields": {
@@ -220,7 +233,7 @@
             "modified": "2010-02-09 19:50:16",
             "filename": "better_gcal-0.4-fx.xpi",
             "platform": 1,
-            "version": 49515,
+            "version": 50000,
             "size": 24,
             "datestatuschanged": "2009-09-18 12:32:59"
         },
@@ -258,7 +271,7 @@
             "picture_type": "image/jpeg",
             "occupation": "",
             "homepage": "http://ginatrapani.org",
-            "email": "dd+44230311a@davedash.com",
+            "email": "g@gmail.com",
             "location": "",
             "bio": 517666,
             "firstname": "Gina",
@@ -266,7 +279,7 @@
             "lastname": "Trapani",
             "emailhidden": true,
             "user": 60582,
-            "password": "",
+            "password": "sha512$7b5436061f8c0902088c292c057be69fdb17312e2f71607c9c51641f5d876522$08d1d370d89e2ae92755fd03464a7276ca607c431d04a52d659f7a184f3f9918073637d82fc88981c7099c7c46a1137b9fdeb675304eb98801038905a9ee0600",
             "nickname": "60582",
             "username": "60582",
             "display_name": "60582 \u0627\u0644\u062a\u0637\u0628",
